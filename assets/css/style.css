@@ -1,0 +1,96 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bg-pink {
+    background-color: #E83E8C;
+    padding: 0 119px;
+}
+
+.navbar-brand img{
+    width: 132px;
+    height: 53px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #707070;
+}
+
+section h3 {
+  font-size: 40px; 
+  color: #ffffff;
+  font-weight: bold; 
+}
+
+footer {
+    height: 184px;
+    background-color: #E83E8C;
+}
+
+footer img {
+    height: 100px;
+}
+
+@media screen and (max-width: 400px){
+    h1{
+        font-size: 35px;
+    }
+
+    section {
+        display: none;
+    }
+}
+
+.card-deck .card {
+    margin-bottom: 64px;
+    margin-left: 88px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-link {
+    font-size: 11px;
+}
+
+.list-group-item {
+    font-size: 11px;
+}
+
+.icons-section {
+    background-color: #17a2b8;
+    height: 170px;
+    width: 100%;
+}
+
+.pre-footer {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fab {
+    font-size: 64px;
+    color: #ffffff;
+    margin-right: 28px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+      .bg-pink {
+          padding: 0 40px;
+      }
+
+      .card-deck .card {
+        margin-left: 0;
+        margin-bottom: 50px;
+      }
+}
